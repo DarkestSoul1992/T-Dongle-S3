@@ -1,19 +1,19 @@
 
-#include "Arduino.h"
-#include "SD_MMC.h"
-#include "WiFi.h"
+#include <Arduino.h>
+#include <SD_MMC.h>
+#include <WiFi.h>
 #include "logo.h"
 #include "lv_driver.h"
 #include "pin_config.h"
 
 /* external library */
 /* To use Arduino, you need to place lv_conf.h in the \Arduino\libraries directory */
-#include "OneButton.h" // https://github.com/mathertel/OneButton
-#include "TFT_eSPI.h"  // https://github.com/Bodmer/TFT_eSPI
+#include <OneButton.h>  // https://github.com/mathertel/OneButton
+#include <TFT_eSPI.h>   // https://github.com/Bodmer/TFT_eSPI
 
 #include "lv_conf.h"
-#include "lvgl.h"    // https://github.com/lvgl/lvgl
-#include <FastLED.h> // https://github.com/FastLED/FastLED
+#include <lvgl.h>       // https://github.com/lvgl/lvgl
+#include <FastLED.h>    // https://github.com/FastLED/FastLED
 
 LV_IMG_DECLARE(image_logo);
 
