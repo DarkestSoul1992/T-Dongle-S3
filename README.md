@@ -62,4 +62,4 @@ An ESP32S3 development board that can freely use WIFI, BLE, TF, LED, TFT_LCD fun
    2. Release the BOOT button
    3. Upload sketch
 
-3. If the above is invalid, burn the [binary file](./firmware/README.MD)  to check whether the hardware is normal
+3. If the above is invalid, burn the [binary file](./firmware)  to check whether the hardware is normal
